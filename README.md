@@ -28,6 +28,8 @@ The script creates two files containing cleansed data. The file `ucihardataset1.
 - Removed derived variables
 - Renamed variable descriptions
 
+There are 10299 records and 21 variables covering accelerometer (which has gravitational and body motion components) and gyroscope data in a triaxial (X-Y-Z) configuration.
+
 The file `ucihardataset2.txt` is produced after a summary operation computing the mean of the variables, grouped by subject and activity type.
 
 CodeBook
