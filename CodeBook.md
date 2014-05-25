@@ -5,7 +5,7 @@ The file `ucihardataset1.txt` is produced after the following operations:
 
 - Merged train and test data into a single file
 - Included subjects and activity as variables
-- Removed derived variables
+- Removed derived variables, keeping only mean and standard deviation features
 - Renamed variable descriptions by lowercasing the original names and removing characters such as parenthesis, dashes, and comas
 
 There are 10299 records and 21 variables covering accelerometer (which has gravitational and body motion components) and gyroscope data in a triaxial (X-Y-Z) configuration.
