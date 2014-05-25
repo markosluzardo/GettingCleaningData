@@ -5,6 +5,8 @@ This assignment uses data collected from the accelerometers from the Samsung Gal
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
+The features were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
+
 The repository contains a `R` script `run_analysis.R` that performs cleaning operations on the employed dataset.
 
 Usage
